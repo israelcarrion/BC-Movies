@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Nav */
+.navbar {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color:#9f3647;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.btn {
+    border: 0.1rem black solid;
+    color: black;
+}
+
+.btn:hover {
+    border: 0.1rem white solid;
+    color: white;
+}
+
+.cabecera {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: #000000;
+}
+
+.slide {
+    margin: 1rem;
+}
+
+.slide img {
+    min-height: 15rem;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.textoMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    width: 10rem;
+    height: 15rem;
+    object-fit: cover;
+    border: 4px double white;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    margin: 40px;
+    background-color: #00000013
+}
+
+h1 {
+    color: white;
+    opacity: 0.6;
+    margin: 3rem 0rem;
+    width: 90%;
+}
+
+h2 {
+    color: white;
+    opacity: 0.6;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.botton {
+    text-align: center;
+    margin: 20px;
+    border-bottom: #000000;
+}
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 8vh;
+    min-height: 4rem;
+    color: white;
+    padding: 0rem 3rem;
+    background-color: #9f3647;
+}
+
+.footer > p {
+    margin: 0;
+}
+
+.iconosFooter{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+}
